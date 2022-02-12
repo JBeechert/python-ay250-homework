@@ -28,6 +28,5 @@ jobs:
           pip install -r requirements.txt
         working-directory: hw_3
       - name: Test and Generate coverage report
-        working-directory: hw_3/calcalc/tests
         run: |
           pytest 
