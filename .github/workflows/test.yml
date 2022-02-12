@@ -29,4 +29,4 @@ jobs:
         working-directory: hw_3
       - name: Test and Generate coverage report
         run: |
-          pytest 
+          pytest hw_3/calcalc/tests 
