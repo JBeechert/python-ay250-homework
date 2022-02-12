@@ -1,8 +1,7 @@
 # hw_3 README for CalCalc.py
 
 
-## CalCalc.py evaluates expressions, passed as strings, with either Python's "eval()" utility 
-or with Wolfram Alpha. 
+## CalCalc.py evaluates expressions, passed as strings, with either Python's "eval()" utility or with Wolfram Alpha. 
 
 
 ## Installation
