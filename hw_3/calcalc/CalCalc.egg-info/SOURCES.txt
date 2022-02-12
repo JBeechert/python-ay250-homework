@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+CalCalc/CalCalc.py
+CalCalc/__init__.py
+CalCalc/CalCalc.egg-info/PKG-INFO
+CalCalc/CalCalc.egg-info/SOURCES.txt
+CalCalc/CalCalc.egg-info/dependency_links.txt
+CalCalc/CalCalc.egg-info/requires.txt
+CalCalc/CalCalc.egg-info/top_level.txt

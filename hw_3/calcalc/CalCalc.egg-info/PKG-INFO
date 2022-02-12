@@ -1,3 +1,18 @@
+Metadata-Version: 2.1
+Name: CalCalc
+Version: 0.0.1
+Summary: Evaluate an expression with either eval() or Wolfram Alpha
+Home-page: UNKNOWN
+Author: Jacqueline Beechert
+Author-email: jbeechert56@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: MIT License
+Classifier: Programming Language :: Python :: 3.9.10
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
 # hw_3 README for CalCalc.py
 
 
@@ -54,3 +69,5 @@ To evaluate with Wolfram,
     >>> calculate('mass of the moon in kg', True)
     'about 7.3459 times 10 to the 22 kilograms'
 ```
+
+
