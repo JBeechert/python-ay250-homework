@@ -3,13 +3,14 @@ import urllib.parse, urllib.request
 import numpy as np
 import math
 
-def calculate(expression, wolfram_boolean=False):
+def calculate(expression, wolfram_boolean=False, return_float=True):
     """
     Takes an expression (string) an evaluates it with eval() or with Wolfram Alpha.
     Required arguments:
         expression: string, the expression to be evaluated. By default, this is evaluated with eval().
     Optional arguments:
         wolfram_boolean (default=False): if True, evaluate the expression with Wolfram Alpha. 
+        return_float (default=True): if True, convert the output from Wolfram Alpha to a float.
     
     Example usage:
     To evaluate with eval(), 
@@ -17,9 +18,9 @@ def calculate(expression, wolfram_boolean=False):
         952
     To evaluate with Wolfram, 
         $ python CalCalc.py -w '34*28'
-        952
+        952.0
         $ python CalCalc.py -w 'mass of the moon in kg'
-        about 7.3459 times 10 to the 22 kilograms
+        7.3459e+22
     
     or
     
@@ -31,9 +32,9 @@ def calculate(expression, wolfram_boolean=False):
     To evaluate with Wolfram,
         $ python
         >>> from CalCalc import calculate
-        >>> calculate('34*28', True)
-        '952'
-        >>> calculate('mass of the moon in kg', True)
+        >>> calculate('34*28', wolfram_boolean=True)
+        952.0
+        >>> calculate('mass of the moon in kg', wolfram_boolean=True, return_float=False)
         'about 7.3459 times 10 to the 22 kilograms'
     """
     
@@ -45,6 +46,17 @@ def calculate(expression, wolfram_boolean=False):
 
         answer = urllib.request.urlopen(url).read()
         answer = str(answer, 'utf-8')
+        
+        if return_float:
+            if 'times 10 to the' in answer:
+                answer = answer.replace(' times 10 to the ', ' e ')
+            answer = answer.split(' ')
+            new = []
+            for x in answer:
+                if x.replace('.','',1).isdigit() or x=='e':
+                    new.append(x)
+            answer = ''.join(str(elem) for elem in new)
+            answer = float(answer)
         
     else:
         answer = eval(expression)
