@@ -29,4 +29,5 @@ jobs:
         working-directory: hw_3
       - name: Test and Generate coverage report
         run: |
-          pytest CalCalc.py --cov=./ --cov-report=xml
+          pytest
+          #pytest CalCalc.py --cov=./ --cov-report=xml
