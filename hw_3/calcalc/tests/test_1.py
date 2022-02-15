@@ -1,3 +1,5 @@
+import sys
+sys.path.append("../")
 from CalCalc import calculate
 
 def test_1():
