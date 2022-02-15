@@ -25,9 +25,11 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install pytest pytest-cov
-          pip install -r requirements.txt
-#        working-directory: hw_3
+          working-directory: hw_3
+	  pip install -r requirements.txt
+        #working-directory: hw_3
       - name: Test and Generate coverage report
         run: |
+          working-directory: hw_3
           pytest
           #pytest CalCalc.py --cov=./ --cov-report=xml
