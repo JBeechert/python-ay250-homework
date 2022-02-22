@@ -17,3 +17,7 @@ Please ignore all other files committed to python-ay250-homework/hw_3
 
 - The GitHub Actions link is:
 [https://github.com/JBeechert/CalCalc/actions](https://github.com/JBeechert/CalCalc/actions)
+
+## Homework 4
+[Homework 4](https://github.com/JBeechert/python-ay250-homework/blob/main/hw_4/hw_4_parallelism.ipynb) was completed on February 22, 2022.
+
