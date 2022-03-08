@@ -21,3 +21,6 @@ Please ignore all other files committed to python-ay250-homework/hw_3
 ## Homework 4
 [Homework 4](https://github.com/JBeechert/python-ay250-homework/blob/main/hw_4/hw_4_parallelism.ipynb) was completed on February 22, 2022.
 
+## Homework 5
+[Homework 5](https://github.com/JBeechert/python-ay250-homework/blob/main/hw_5/hw_5.ipynb) was completed on March 8, 2022.
+
