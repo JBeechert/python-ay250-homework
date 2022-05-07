@@ -29,4 +29,4 @@ My final project is located [here](https://github.com/JBeechert/cds-visualizatio
 
 - The jupyter notebook can be downloaded in order to test the interactivity of the plots, but external dependencies on COSIpy, as indicated in the notebook, cannot be run as is. Future work will reconcile the dependencies. 
 
-- A video walkthrough of the notebook has been shared with Josh Bloom and Ellianna Abrahams in the Berkeley Box..
+- A video walkthrough of the notebook has been shared with Josh Bloom and Ellianna Abrahams in the Berkeley Box.
