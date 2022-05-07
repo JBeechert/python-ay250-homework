@@ -24,3 +24,9 @@ Please ignore all other files committed to python-ay250-homework/hw_3
 ## Homework 5
 [Homework 5](https://github.com/JBeechert/python-ay250-homework/blob/main/hw_5/hw_5.ipynb) was completed on March 8, 2022.
 
+## Final Project
+My final project is located [here](https://github.com/JBeechert/cds-visualization). 
+
+- The jupyter notebook can be downloaded in order to test the interactivity of the plots, but external dependencies on COSIpy, as indicated in the notebook, cannot be run as is. Future work will reconcile the dependencies. 
+
+- A video walkthrough of the notebook has been shared with Josh Bloom and Ellianna Abrahams in the Berkeley Box..
